@@ -4,11 +4,24 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <title>Lógica de Programação</title>
 
     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
+        @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,      200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;      1,700;1,800;1,900&display=swap');
+
+        @import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&     display=swap');
+
         body{
             background-color: bisque;
+            /* sempre seguir essa ordem(font-style  ->  font-weight font-size -> font-family). */
+            font-family: 'Work Sans', sans-serif;
+        }
+        .site-fluxograma{
+            color: rgb(255, 0, 0);
+            text-decoration: solid;
         }
     </style>
 
@@ -61,7 +74,34 @@
 
     <h3>Fluxograma, variaveis, constancias e tipos de dados</h3>
 
+    <p>Clique no <a href="http://www.flowgorithm.org/" target="_blank" class="site-fluxograma"><strong>Site</strong></a> de fluxograma para download somente para Windows</p>
+
     <p><strong>Fluxograma</strong>: Tipo de diagrama, fluxo de dados, uma sequencia lógica e coerente do fluxo de dados.</p>
-    <p>Variaveis: É um objeto (uma posição )</p>
+    <p><strong>Variaveis</strong>: É um objeto que preenchemos tanto com numero ou letra, podendo ser classificadas basicamente de 4 tipos: Numéricas, Caracteres, Alfanuméricas ou Lógicas.</p>
+    <p><strong>Declaração de Variáveis:</strong></p>
+    <ul>
+        <li type="circle"><strong>INICIO</strong></li>
+        <li>DECLARA nota1: número</li>
+        <li>DECLARA nota2: número</li>
+        <li>DECLARA nota3: número</li>
+        <li>DECLARA nota4: número</li>
+        <li>DECLARA media: número</li>
+        <li>LEIA (nota1)</li>
+        <li>LEIA (nota2)</li>
+        <li>LEIA (nota3)</li>
+        <li>LEIA (nota4)</li>
+        <li>media=(nota1 + nota2 + nota3 + nota4)/4</li>
+        <li>IMPRIMIR (media)</li>
+        <li type="circle"><strong>FIM</strong></li>
+    </ul>
+    
+    <p><strong>Constante</strong>: São valores imutáveis e não são alterados durante a vida útil do programa</p>
+    <ul>
+        <li type="circle"><strong>INICIO</strong></li>
+        <li>DECLARA pi = 3,14</li>
+        <li>DECLARA raio: número</li>
+        <li type="circle"><strong>FIM</strong></li>
+    </ul>
+
 </body>
 </html>
