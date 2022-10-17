@@ -4,17 +4,21 @@
         <attribute name="name" value=""/>
         <attribute name="authors" value="JisusBr"/>
         <attribute name="about" value=""/>
-        <attribute name="saved" value="2022-10-17 03:57:20 "/>
+        <attribute name="saved" value="2022-10-17 04:59:27 "/>
         <attribute name="created" value="SmlzdXNCcjtERVNLVE9QLTIwU004UUw7MjAyMi0xMC0xNzsiMDM6NTI6NTkgIjsyOTU0"/>
-        <attribute name="edited" value="SmlzdXNCcjtERVNLVE9QLTIwU004UUw7MjAyMi0xMC0xNzsiMDM6NTc6MjAgIjsxOzMwNTU="/>
+        <attribute name="edited" value="SmlzdXNCcjtERVNLVE9QLTIwU004UUw7MjAyMi0xMC0xNzsiMDQ6NTk6MjcgIjsyOzMwNjY="/>
     </attributes>
     <function name="Main" type="None" variable="">
         <parameters/>
         <body>
             <declare name="nota1, nota2, nota3, nota4, media" type="Real" array="False" size=""/>
+            <output expression="&quot;Digite a primeira nota:&quot;" newline="True"/>
             <input variable="nota1"/>
+            <output expression="&quot;Digite a segunda nota:&quot;" newline="True"/>
             <input variable="nota2"/>
+            <output expression="&quot;Digite a terceira nota:&quot;" newline="True"/>
             <input variable="nota3"/>
+            <output expression="&quot;Digite a quarta nota:&quot;" newline="True"/>
             <input variable="nota4"/>
             <assign variable="media" expression="(nota1+nota2+nota3+nota4)/4"/>
             <output expression="media" newline="True"/>
