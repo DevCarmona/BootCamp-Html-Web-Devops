@@ -1,3 +1,7 @@
+//Função do Algoritmo: Calcular a média aritmética
+// alt + 92 = \
+//quebra de linha: \n
+
 programa
 {
 	
@@ -19,8 +23,15 @@ programa
 
 		media = (nota1+nota2+nota3+nota4)/4
 
-		escreva("O aluno: " + aluno + " obteve a média: " + media
-		)
+		escreva("Sua média é: " + media)
+		//Verifica se a média é maior ou igual a 7
+		se(media>=7){
+			escreva("\n" + "Parabéns!! vc foi aprovado.")
+		}
+		//Caso a média seja menor que 7
+		senao{
+			escreva("\n" + "Caraio vc é mei burro em nuuss, REPROVADÍSSIMO!")
+		}		
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -28,7 +39,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 418; 
+ * @POSICAO-CURSOR = 708; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
