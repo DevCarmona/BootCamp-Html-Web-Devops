@@ -1,0 +1,13 @@
+*{
+    background-color: bisque;
+}
+
+body{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+h1{
+    text-align: center;
+    color: brown;
+}
