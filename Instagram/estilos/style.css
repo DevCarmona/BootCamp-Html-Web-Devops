@@ -5,12 +5,13 @@
     text-decoration: none;
     font-family: sans-serif;
     font-size: 14px;
+    font-weight: bold;
 }
 
 body{
     width: 100%;
     min-height: 100vh;
-    background-color: rgb(243, 243, 243);
+    background-image: url(../img/plano\ de\ fundo\ old.jpg);
     margin: 0;
     padding: 0;
     display: flex;
@@ -50,11 +51,11 @@ body{
     justify-content: space-between;
     align-items: center;
     flex-direction: column;
-    background-color: #ffffff;
-    width: 100%;
-    padding: 1.3rem 0;
-    border: 1px solid lightgray;
-    border-radius: 5px;
+    background-color: #DABB83;
+    width: 70%;
+    padding: 15px 0;
+    border: 1px solid #673214;
+    border-radius: 20px;
 }
 
 .group:nth-child(1){
@@ -69,6 +70,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    border: 1px solid #673214;
     border-radius: 20%;
     overflow: hidden;
 }
@@ -78,23 +80,27 @@ body{
 }
 
 .instagram-login{
-    background-color: #0095f6;
+    background-color: #673214;
     color: white;
     padding: 8px;
-    border-radius: 4px;
+    border-radius: 10px;
 }
 
 .instagram-logout{
-    color: #0095f6;
+    color: #673214;
     margin-top: 1rem;
+    padding: 5px;
+    border: 2px solid #673214;
+    border-radius: 8px;
 }
 
 .not-account{
-    color: rgb(160, 160, 160);
+    font-weight: 600;
+    color: rgb(230, 230, 230);
 }
 
-.link-blue{
-    color: #0095f6;
+.link-brown{
+    color: #673214;
 }
 
 .get-the-app{
@@ -104,6 +110,10 @@ body{
     justify-content: center;
     width: 100%;
     padding: 1.3rem 0;
+}
+
+.get-app{
+    font-size: 16px;
 }
 
 .download{
@@ -152,6 +162,6 @@ body{
     }
 
     .group{
-        border: 1px solid transparent;
+        border: 1px solid #673214;
     }
 }
