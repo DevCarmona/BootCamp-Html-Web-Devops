@@ -1,16 +1,51 @@
-var lista = ["Maça", "Pêra", "Laranja"];
-//Adicionar item na lista
-lista.push("Uva")
-//Tira o último elemento da lista
-lista.pop();
-console.log(lista);
-console.log(lista[1]);
-//lenght = Quantidade de elementos que tem na lista (3)
-console.log(lista.length)
-//reverse = trás a lista de trás para frente (Laranja, Pêra, Maça)
-console.log(lista.reverse());
-//toString = Trás como String, perdendo a referência de Array
-console.log(lista.toString());
+//Condicionais, laços de repetição e Date
+/*
+Condicional
+var idade = prompt("Qual sua idade");
+if (idade >= 18) {
+    alert("Maior de idade!");
+} else {
+    alert("Menor de idade!");
+}
+*/
+/*
+//Laços de Repetição
+var count = 0;
+while (count <= 5) {
+    console.log(count);
+    count++;
+}
+//For = Auto estrutura de repetição
+for(count = 0 ; count <= 5 ; count++) {
+    console.log(count)
+}
+*/
+/*
+//Data
+var d = new Date();
+//getMonth = Maneiras de trabalhar com data. Tras somente o mes, sempre colocar o +1 pq ele começa do zero. 
+alert(d.getMonth()+1)
+alert(d.getDay())
+alert(d.getHours())
+alert(d.getMinutes())
+console.log()
+*/
+
+
+
+// var lista = ["Maça", "Pêra", "Laranja"];
+// //Adicionar item na lista
+// lista.push("Uva")
+// //Tira o último elemento da lista
+// lista.pop();
+// console.log(lista);
+// console.log(lista[1]);
+// //lenght = Quantidade de elementos que tem na lista (3)
+// console.log(lista.length)
+// //reverse = trás a lista de trás para frente (Laranja, Pêra, Maça)
+// console.log(lista.reverse());
+// //toString = Trás como String, perdendo a referência de Array
+// console.log(lista.toString());
 
 //var nome = "Andre Carmona";
 //var n1 = 5;
