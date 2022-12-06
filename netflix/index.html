@@ -11,7 +11,9 @@
 <body>
     <header>
         <div class="container">
-            <h2 class="logo">GAMEFLIX</h2>
+            <a href="index.html">
+                <h2 class="logo">GAMEFLIX</h2>
+            </a>
             <nav>
                 <!--Alt+Shift+baixo copia a linha-->
                 <a href="index.html">Inicio</a>
@@ -28,7 +30,7 @@
                 <h3 class="titulo">THE CALLISTO PROTOCOL</h3>
                 <p class="descricao">Quando uma misteriosa epidemia transforma os outros detentos em criaturas inumanas e sanguinárias, Jacob terá que fazer de tudo para conseguir escapar com vida.</p>
                 <div class="botoes">
-                    <button role="button" class="botao">
+                    <button role="button" class="botao" onclick="baixarcallisto()">
                         <i class="fa-solid fa-down-to-bracket"></i>
                         BAIXAR
                     </button>
@@ -42,6 +44,10 @@
         <script>
             function clicar(){
                 window.open("pag2.html")
+            }
+
+            function baixarcallisto(){
+                alert("Sem link para Download")
             }
         </script>
 </body>
