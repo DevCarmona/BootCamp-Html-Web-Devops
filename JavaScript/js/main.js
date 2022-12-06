@@ -1,3 +1,60 @@
+function load(){
+    alert("Pag carregada")
+}
+
+
+function clicou(){
+    document.getElementById("agradecimento").innerHTML = "<b>Obg por clicar</b>"
+    //alert("Obg por clicar")
+}
+function redirecionar(){
+    //usado para redirecionar pág, abrindo em outra aba
+    window.open("https://www.google.com/webhp?hl=pt-BR&ictx=2&sa=X&ved=0ahUKEwjs68zY2eL7AhVdLrkGHRGuCi8QPQgI")
+    //usado para redirecionar pág, abre na msm aba
+    window.location.href = "https://www.google.com/webhp?hl=pt-BR&ictx=2&sa=X&ved=0ahUKEwjs68zY2eL7AhVdLrkGHRGuCi8QPQgI"
+}
+
+function trocar(elemento){
+    //Mouse em cima do texto, aparece esse texto
+    //document.getElementById("mousemove").innerHTML = "Obg por passar o mouse"
+    elemento.innerHTML = "Obg por passar o mouse"
+}
+
+function voltar(elemento){
+    //Ao tirar o mouse do texto aparece esse texto.
+    //document.getElementById("mousemove").innerHTML = "Passe o mouse aqui"
+    elemento.innerHTML = "Passe o mouse aqui"
+}
+
+function funcaoChange(elemento){
+    console.log(elemento.value)
+}
+
+var v1 = 30
+var v2 = 10
+var tot = (v1 * v2) *-1
+console.log(tot)
+/*
+//Funções JS
+function soma(n1, n2) {
+    return n1 + n2;
+}
+//alert(soma(5, 10))
+
+//usando o validar fora da função é global, estamos falando para a function utilizar o validar global. 
+var validar = 0;
+function validaIdade(idade) {
+    if(idade >= 18) {
+        validar = true
+    } else{
+        validar = false
+    }
+    return validar
+}
+var idade = prompt("Qual sua idade ?")
+console.log(validaIdade(idade))
+*/
+
 //Condicionais, laços de repetição e Date
 /*
 Condicional

@@ -1,0 +1,87 @@
+:root{
+    --amarelo: #f0b114;
+    --cinza: #141414;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Elementos base*/
+body{
+    background: var(--cinza);
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+header .container{
+    /*Sempre joga os elementos por padrão em linha*/
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo{
+    margin-left: 10px;
+    color: var(--amarelo);
+    font-family: 'Arial Black', Times;
+    font-size: 40px;
+}
+
+header nav a{
+    text-decoration: none;
+    color: #AAA;
+    margin-right: 10px;
+}
+
+/*Mudar a cor ao passar o mouse em cima */
+header nav a:hover{
+    color: #fff;
+}
+
+/*Jogo-Principal*/
+.jogo-principal{
+    font-size: 18px;
+    /*linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%) = cria uma camada fina de preto em cima da imagem*/
+    background: linear-gradient(rgba(0, 0, 0, 0.185),rgba(0,0,0,.185)100%), url('../img/teste-400.jpg');
+    
+    height: 500px;
+    background-size: cover;
+    /*Sempre joga os elementos por padrão em linha*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.jogo-principal .descricao{
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.jogo-principal .titulo{
+    margin-top: 10%;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.botao{
+    background-color: var(--amarelo);
+    border: none;
+    color: white;
+
+    padding: 10px 15px;
+    margin-right: 10px;
+    border-radius: 10px;
+    font-weight: bolder;
+    
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.botao:hover{
+    background-color: white;
+    color: black;
+}
