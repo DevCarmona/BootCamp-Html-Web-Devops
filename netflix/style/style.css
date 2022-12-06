@@ -40,7 +40,7 @@ header nav a{
     margin-right: 10px;
 }
 
-/*Mudar a cor ao passar o mouse em cima */
+/*Mudar a cor ao passar o mouse em cima (inicio, trad ptbr...) */
 header nav a:hover{
     color: #fff;
 }
@@ -89,7 +89,7 @@ header nav a:hover{
     cursor: pointer;
     transition: .3s ease all;
 }
-
+/*Mudar a cor ao passar o mouse em cima dos botoes (baixar e mais informacoes)*/
 .botao:hover{
     background-color: white;
     color: black;
