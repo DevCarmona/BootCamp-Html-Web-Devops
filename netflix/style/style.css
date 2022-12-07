@@ -109,3 +109,7 @@ header nav a:hover{
     margin-top: 10px;
     margin-bottom: 10px;
 }
+
+.box-jogos{
+    border-radius: 20px;
+}
