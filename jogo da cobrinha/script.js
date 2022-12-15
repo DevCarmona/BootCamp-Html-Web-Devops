@@ -1,6 +1,9 @@
+
+// Cria um elemento que vai rodar o jogo
 let canvas = document.getElementById("snake")
 let context = canvas.getContext("2d");
 let box = 32;
+// Cria uma cobrinha como lista
 let snake = [];
 snake[0] = {
     x: 8 * box,
@@ -48,6 +51,13 @@ function iniciarJogo(){
     if(snake[0].y > 15 * box && direction == "down") snake[0].y = 0;
     if(snake[0].y < 0 && direction == "up") snake[0].y = 16 * box;
 
+    for(i = 1; i < snake.length; i++){
+        if(snake[0].x == snake[i].x && snake[0].y == snake[i].y){
+            clearInterval(jogo);
+            alert('Game Over:(');
+        }
+    }
+
     criarBG();
     criarCobrinha();
     drawFood();
@@ -67,8 +77,7 @@ function iniciarJogo(){
         food.y = Math.floor(Math.random() * 15 + 1) * box;
     }
 
-    // Tira o ultimo elemento da array
-    snake.pop();
+
 
     let newHead = {
         x: snakeX,
