@@ -1,3 +1,11 @@
 body{
-    
+    height: 95vh;
+    width: 95;
+
+    /*Elemento para ficar no meio e um abaixo do outro */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: rgb(0, 44, 0);
 }
